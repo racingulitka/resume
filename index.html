@@ -1,0 +1,197 @@
+﻿<!doctype html>
+
+<html>
+
+<head>
+	<title>Резюме</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css\style.css"/>
+	<script src="js/script.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="back">
+			<a class="contacts" href="tel:+79116043252" target="_blank" onMouseOver="pointerIn1();" onMouseOut="pointerOut1();">
+				<img src="img/phone.png">
+				<p>+7(911)604-32-52</p>
+				<div class="blink" id="button1"></div>
+			</a>
+			<a class="contacts" href="mailto:mex8@mail.ru" target="_blank" onMouseOver="pointerIn2();" onMouseOut="pointerOut2();">
+				<img src="img/email.png">
+				<p>mex8@mail.ru</p>
+				<div class="blink" id="button2"></div>
+			</a>
+			<a class="contacts" href="https://wa.me/79116043252" target="_blank" onMouseOver="pointerIn3();" onMouseOut="pointerOut3();">
+				<img src="img/watsapp.png">
+				<p>+7(911)604-32-52</p>
+				<div class="blink" id="button3"></div>
+			</a>
+			<a class="contacts" href="https://t.me/+79116043252" target="_blank" onMouseOver="pointerIn4();" onMouseOut="pointerOut4();">
+				<img src="img/telegram.png">
+				<p>+7(911)604-32-52</p>
+				<div class="blink" id="button4"></div>
+			</a>
+			<a class="contacts" href="http://github.com/racingulitka"  target="_blank" onMouseOver="pointerIn5();" onMouseOut="pointerOut5();">
+				<img src="img/github.png">
+				<p>racingulitka</p>
+				<div class="blink" id="button5"></div>
+			</a>
+			<a class="contacts" href="https://www.linkedin.com/in/maksim-roslyakov/" target="_blank" onMouseOver="pointerIn6();" onMouseOut="pointerOut6();">
+				<img src="img/linkedin.png">
+				<p>maksim-roslyakov</p>
+				<div class="blink"  id="button6"></div>
+			</a>
+		</header>
+		<aside class="back">
+<!-----------------------------photo------------------>
+			<div class="photo_container" id="photo_container" onclick="reverse_photo();">
+				<div class="photo_face"></div>
+				<div class="photo_back"></div>
+			</div>
+			<div class="aside_splitter"></div>
+			<div class="fio">
+				<h1>Максим Росляков</h1>
+				<p style="text-align:center; font-style:italic; display:block;">30.11.1982 (39 лет)</p>
+			</div>
+			<div class="aside_splitter"></div>
+<!---------------------------hard skills--------------->
+			<div>
+				<ul>
+					<h2>Hard Skills</h2>
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>JavaScript (в процессе изучения)</li>
+					<li>GitHub (в процессе изучения)</li>
+				</ul>
+			</div>
+			<div class="aside_splitter"></div>
+<!---------------------------soft skills------------------>
+			<div>
+				<ul>
+					<h2>Soft Skills</h2>
+					<li>Умение работать в комманде</li>
+					<li>Самостоятельность</li>
+					<li>Навыки коммуникации</li>
+					<li>Тайм менеджмент</li>
+					<li>Дисциплинированность</li>
+				</ul>
+			</div>
+			<div class="aside_splitter"></div>
+<!----------------------------------temp-------------------->
+			<h2>Образование</h2>
+			<ul>
+				<li>
+					<p>2002 - 2007</p>
+					<h3>Новгородский государственный университет им. Ярослава Мудрого (НовГУ)</h3>
+					<h4>Специальность - Маркетинг</h4>
+				</li>
+				<li>
+					<p>1997 - 2002</p>
+					<h3>Боровичский автомобильно-дорожный коллежд (БАДК)</h3>
+					<h4>Специальность - Механик</h4>
+				</li>
+			</ul>
+
+<!----------------------------------->
+		</aside>
+		<main>
+			<article class="about back">
+				<h2>О себе</h2>
+				<p>Начал изучать frontend разработку, как хобби, но в процессе изучения, понял, что хочу этим заниматься на постоянной основе.</p>
+			</article>
+			<article class="portfolio back">
+				<h2>Проекты</h2>
+				<ul>
+					<li>
+						<h3>Сайт салона оптики с приемом врача офтальмолога</h3>
+						<h4><a href="http://centrzrenija.ru" target="_blank">Превью: centrzrenija.ru</a></h4>
+						<h4><a href="https://github.com/racingulitka/centrzrenija_3.0" target="_blank">Код: https://github.com/racingulitka/centrzrenija_3.0</a></h4>
+						<p>Актуальная, на данный момент, версия сайта "ЦентрЗрения". Мобильная и десктоп версии. Адаптив с применением медиазапросов. Применены технологии: flex, grid, анимация @Keyframes, hover эффекты, обработка событий JavaScript</p>
+					</li>
+
+					<li>
+						<h3>Предыдущая версия сайта салона оптики с приемом врача офтальмолога</h3>
+						<h4><a href="http://racingulitka.github.io/centrzrenija_new/" target="_blank">Превью: http://racingulitka.github.io/centrzrenija_new/</a></h4>
+						<h4><a href="https://github.com/racingulitka/centrzrenija_new" target="_blank">Код: https://github.com/racingulitka/centrzrenija_new</a></h4>
+						<p>Мой первый рабочий проект. Одностраничный лендинг выполнен на флекс контейнерах, с целью получения адаптивной верстки. Также применены ховер эффекты.</p>
+					</li>
+					<li>
+						<h3>Лендинг небольшой строительной компании</h3>
+						<h4><a href="http://marksline.ru" target="_blank">Превью: marksline.ru</a></h4>
+						<h4><a href="https://github.com/racingulitka/MarksLine" target="_blank">Код: https://github.com/racingulitka/MarksLine</a></h4>
+						<p>Применены технологии: flex, grid, hover эффекты. Адаптив за счет флекс контейнеров и медиазапросов. Меню "гамбургер" сделано на JavaScript.</p>
+					</li>
+					<li>
+						<h3>Простейший калькулятор</h3>
+						<h4><a href="http://racingulitka.github.io/calculator/" target="_blank">Превью: http://racingulitka.github.io/calculator/</a></h4>
+						<h4><a href="https://github.com/racingulitka/calculator" target="_blank">Код: https://github.com/racingulitka/calculator</a></h4>
+						<p>Проект для изучения JavaScript. Калькулятор имеет графический интерфейс и выполняет простые арифметические действия. Применены технологии:JavaScript, grid, flex, анимация @keyframes и hover эффекты.</p>
+					</li>
+					<li>
+						<h3>Игра на запоминание картинок</h3>
+						<h4><a href="http://racingulitka.github.io/memory_game/" target="_blank">Превью: http://racingulitka.github.io/memory_game/</a></h4>
+						<h4><a href="https://github.com/racingulitka/memory_game" target="_blank">Код: https://github.com/racingulitka/memory_game</a></h4>
+						<p>Применены технологии: JavaScript</p>
+					</li>
+				</ul>
+			</article>
+			<article class="experience back">
+				<h2>Опыт работы</h2>
+				<ul>
+					<li>
+						<h3>Старший менеджер (навигатор)</h3>
+						<p>05.2018 - по настоящее время</p>
+						<h4>АО "Боровичский комбинат огнеупоров"</h4>
+						<!--<p>Координирование группы по внедрению и поддержанию принципов бережливого производства на предприятии. Работа в рамках проектов.</p>-->
+					</li>
+					<li>
+						<h3>Менеджер по развитию производства</h3>
+						<p>11.2016 - 05.2018</p>
+						<h4>АО "Боровичский комбинат огнеупоров"</h4>
+						<!--<p>Внедрение и поддержание принципов бережливого производства на предприятии. Работа в рамках проектов.</p>-->
+					</li>
+					<li>
+						<h3>Торговый представитель</h3>
+						<p>01.2016 - 11.2016</p>
+						<h4>ПАО "МТС"</h4>
+						<!--<p>Контроль остатков товара, контроль выкладки, реклама в торговых точках, обучение персонала.</p>-->
+					</li>
+					<li>
+						<h3>Мастер</h3>
+						<p>07.2015 - 01.2016</p>
+						<h4>ООО "Элегия"</h4>
+						<!--<p>Организация производственного процесса на участке.</p>-->
+					</li>
+					<li>
+						<h3>Мастер</h3>
+						<p>11.2014 - 07.2015</p>
+						<h4>ЗАО "Красный октябрь"</h4>
+						<!--<p>Организация работы участка техоснастки.</p>-->
+					</li>
+					<li>
+						<h3>Мастер</h3>
+						<p>07.2014 - 11.2014</p>
+						<h4>ООО "ЭМПА"</h4>
+						<!--<p>Организация работы участка кузовного ремонта автомобилей.</p>-->
+					</li>
+					<li>
+						<h3>Заместитель директора по производству</h3>
+						<p>03.2010 - 07.2014</p>
+						<h4>ООО "Завод эльбор"</h4>
+						<!--<p>Организация и координирование работы производства</p>-->
+					</li>
+					<li>
+						<h3>Специалист производственно-диспетчерского отдела</h3>
+						<p>02.2007 - 03.2010</p>
+						<h4>ООО "Завод эльбор"</h4>
+						<!--<p>Планирование и диспетчирование производства</p>-->
+					</li>
+				</ul>
+			</article>
+		</main>
+	</div>
+</body>
+
+</html>
