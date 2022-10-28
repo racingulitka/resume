@@ -7,7 +7,7 @@
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="css\style.css"/>
 	<script src="js/script.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -46,10 +46,7 @@
 		</header>
 		<aside class="back">
 <!-----------------------------photo------------------>
-			<div class="photo_container" id="photo_container" onclick="reverse_photo();">
-				<div class="photo_face"></div>
-				<div class="photo_back"></div>
-			</div>
+			<div class="photo_container"></div>
 			<div class="aside_splitter"></div>
 			<div class="fio">
 				<h1>Максим Росляков</h1>
@@ -139,6 +136,7 @@
 			</article>
 			<article class="experience back">
 				<h2>Опыт работы</h2>
+				<div id = "stretchBox" onclick = "openBlock();">
 				<ul>
 					<li>
 						<h3>Старший менеджер (навигатор)</h3>
@@ -189,6 +187,7 @@
 						<!--<p>Планирование и диспетчирование производства</p>-->
 					</li>
 				</ul>
+				</div>
 			</article>
 		</main>
 	</div>

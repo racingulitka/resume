@@ -1,19 +1,11 @@
-//-----------code for photo
-
-let position_count = 2;
-function reverse_photo(){
-	if (position_count%2 != 1){
-		document.getElementById('photo_container').style.cssText = 
-		"transform: rotateY(180deg);";
-		position_count++;
+function openBlock(){
+	if(getComputedStyle(stretchBox).height == "359px"){
+		document.getElementById("stretchBox").style.cssText = "height:100%;";
 	}
 	else{
-		document.getElementById('photo_container').style.cssText = 
-		"transform: rotateY(0deg);";
-		position_count++;
+		document.getElementById("stretchBox").style.cssText = "height:359px;";
 	}
 }
-
 //----------------code for blink button
 
 function pointerIn1(){
