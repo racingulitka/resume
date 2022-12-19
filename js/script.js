@@ -1,5 +1,5 @@
 function openBlock(){
-	if(getComputedStyle(stretchBox).height == "359px"){
+	if(getComputedStyle(stretchBox).height == "426px"){
 		document.getElementById("stretchBox").style.cssText = "height:100%;";
 	}
 	else{
