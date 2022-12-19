@@ -3,7 +3,7 @@ function openBlock(){
 		document.getElementById("stretchBox").style.cssText = "height:100%;";
 	}
 	else{
-		document.getElementById("stretchBox").style.cssText = "height:359px;";
+		document.getElementById("stretchBox").style.cssText = "height:426px;";
 	}
 }
 //----------------code for blink button
